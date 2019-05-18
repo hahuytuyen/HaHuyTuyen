@@ -1,0 +1,31 @@
+*{margin: 0px;
+	padding: 0px;}
+.tong{width: 500px;
+	height: 150px;
+	background: red;
+	margin: auto;
+	padding: 6px}
+.img1{width: 71px; 
+	height: 150px;
+	display: inline;
+	padding-left: 6px;}
+.img2{width: 64px;
+	height: 150px;
+	display: inline;
+	padding-left: 6px;}
+.img3{width: 62px;
+	height: 150px;
+	display: inline;
+	padding-left: 6px;}
+.img4{width: 65px;
+	height: 150px;
+	display: inline;
+	padding-left: 6px;}
+.img5{width: 71px;
+	height: 150px;
+	display: inline;
+	padding-left: 6px;}
+.img6{width: 63px;
+	height: 150px;
+	display: inline;
+	padding-left: 6px;}

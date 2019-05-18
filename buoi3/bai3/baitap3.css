@@ -7,9 +7,10 @@
 	height: 506px;}
 .menu{width: 795px;
 	height: 32px; 
-	float: left;}
-.menu ul{list-style-type: none; background-color: #626262}
-.menu ul li{display: inline; line-height: 28px; padding-left: 10px;}
+	float: left;
+	border-bottom: 3px orange;}
+.menu ul{list-style-type: none; background-color: #626262; }
+.menu ul li{display: inline; line-height: 28px; padding-left: 10px; border-right: solid black 1px; padding-right: 10px}
 .menu ul li a{color: #f25d0c; 
 	text-decoration: none; 
 	size: 10px;}
