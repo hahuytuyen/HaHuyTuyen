@@ -15,7 +15,7 @@
 	text-decoration: none; 
 	size: 10px;}
 .menu ul li a:hover{color: #d5de17; font-weight: bold;}
-.menu ul li:hover{background: #fff}
+.menu ul li:hover{background: #fff; border-radius: 5px;}
 .left{width: 150px;
 	height: 740px;
 	background:;
@@ -26,7 +26,7 @@
 	text-decoration: none;
 	size: 10px;}
 .left ul li a:hover{color: #f25d0c; font-weight: bold; }
-.left ul li:hover{background: pink;}
+.left ul li:hover{background: pink; border-radius: 5px;}
 .center{width: 495px;
 	height: 740px;
 	float: left;}
