@@ -1,0 +1,48 @@
+#menu{
+width: 100%;
+height: 40px;
+background-color: pink;
+}
+#menu li{
+list-style: none;
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+background-color: yellow;
+height: 100%;
+line-height: 40px;
+border-right: 1px solid red;
+position: relative;
+}
+#menu li a{
+text-decoration: none;
+color: #ff7300;
+}
+#menu li:hover a{
+color:green;
+}
+#menu li:hover{
+cursor: pointer;
+background-color: white;
+}
+#submenu{
+display: none;
+}
+#menu li:hover #submenu{
+display: block;
+}
+
+#submenu{
+width: 200px;
+position: absolute;
+top:40px;
+left:-40px;
+
+}
+#submenu li{
+clear: both;
+width: 100px;
+border-right: none;
+border-bottom: 1px solid green;
+
+}

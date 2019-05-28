@@ -68,4 +68,5 @@ background: #78b43d;
 #submenu2 li:hover{
 	cursor: pointer;
 	background-color:#aad862;
+	color: #fff
 }
