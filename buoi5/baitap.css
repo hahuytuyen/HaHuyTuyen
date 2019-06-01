@@ -5,7 +5,8 @@
 .header{
 	width: 100%;
 	height: 10%;
-	background: red;}
+	background: red;
+	position: relative;}
 #zent {
 	color: white;
 	font-size: 40px;
@@ -21,7 +22,6 @@
 	line-height: 40px;}
 #menu_1 ul{
 	list-style-type: none;
-	
 	}
 #menu_1 ul li{
 	display: inline-block;	
