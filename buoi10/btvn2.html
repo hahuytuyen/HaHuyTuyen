@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="bt2.js"></script>
+	<style>
+		.my_button {
+    	opacity:0.4;
+   		z-index: 2;
+    	position: absolute;
+   	 	margin: auto;
+		}
+	</style>
+</head>
+<body onload="AutoControl()">
+  <p align="center"><img src="1.jpg" name="SrcImg" width="1000" height="450" /><p>
+  <button class="my_button" onclick="ControlImage(-1)" style="left:15%;top:30%;"><</button>
+  <button class="my_button" onclick="ControlImage(1)" style="right:15%;top:30%;">></button>
+
+  <button id="9" class="my_button" onclick="ShowOneImg(9)" style="right:17%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="8" class="my_button" onclick="ShowOneImg(8)" style="right:19%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="7" class="my_button" onclick="ShowOneImg(7)" style="right:21%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="6" class="my_button" onclick="ShowOneImg(6)" style="right:23%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="5" class="my_button" onclick="ShowOneImg(5)" style="right:25%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="4" class="my_button" onclick="ShowOneImg(4)" style="right:27%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="3" class="my_button" onclick="ShowOneImg(3)" style="right:29%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="2" class="my_button" onclick="ShowOneImg(2)" style="right:31%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="1" class="my_button" onclick="ShowOneImg(1)" style="right:33%;bottom:30%;width:20px;height:20px;"></button>
+  <button id="0" class="my_button" onclick="ShowOneImg(0)" style="right:35%;bottom:30%;width:20px;height:20px;"></button>
+
+</body>
+</html>

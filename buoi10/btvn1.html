@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		div{
+			width: 650px;
+			height: 380px;
+			margin: auto;
+			border-radius: 20px;
+			padding-top: 100px;
+			padding-left: 30px;
+			margin-top: 50px;
+			background-image: url(img/aa.jpg);
+		}
+		button{
+			margin-left: 110px;
+			margin-top: 30px;
+			background: #fb7820;
+			border-radius: 5px;
+		}
+		body{
+			background-image: url(img/111.jpg);
+		}
+		span{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<form>
+			<table cellpadding="0" cellspacing="15" border="0" style="color: #05f922">
+				<tr>
+					<td>Tên</td>
+					<td><input type="text" id="name" placeholder="Nhập họ tên..." style="width: 300px;"></td>
+					<td><span id="error"></span></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" id="email" placeholder="Địa chỉ email..." style="width: 300px"></td>
+					<td><span id="error"></span></td>
+				</tr>
+				<tr>
+					<td>Mật khẩu</td>
+					<td><input type="password" id="pass" placeholder="Mật khẩu..." style="width: 300px"></td>
+					<td><span id="error"></span></td>
+				</tr>
+				<tr>
+					<td>Nhập lại mật khẩu</td>
+					<td><input type="password" id="re_pass" style="width: 300px"></td>
+					<td><span id="error"></span></td>
+				</tr>
+				<tr>
+					<td>Giới tính</td>
+					<td><input id="gioitinh1" name="gioitinh" type="radio" value="Nam" />Nam
+						<input id="gioitinh2" name="gioitinh" type="radio" value="Nữ" />Nữ</td>
+						<td><span id="error"></span></td>
+				</tr>
+				<tr>
+					<td>Số điện thoại</td>
+					<td><input type="text" id="phone" placeholder="Vui lòng nhập 10 số..." style="width: 300px"></td>
+					<td><span id="error"></span></td>
+				</tr>
+			</table>
+		</form>
+		<button type="button">Đăng kí</button>
+		<button type="button" id="xoa" onclick="clearAll()"> Xóa Trắng</button>
+	</div>
+</body>
+	<script>
+		var button_register = document.getElementsByTagName('button')[0];
+		var errors = document.getElementById('error');
+		button_register.addEventListener('click', function(){
+			var re = /^[A-Za-z0-9]+([_\.\-]?[A-Za-z0-9])*@[A-Za-z0-9]+([\.\-]?[A-Za-z0-9]+)*(\.[A-Za-z]+)+$/;
+			var name = document.getElementById('name').value;
+			var email = document.getElementById('email').value;
+			var pass = document.getElementById('pass').value;
+			var re_pass = document.getElementById('re_pass').value;
+			var phone = document.getElementById('phone').value;
+
+			var regexPhoneNumber = /^[0-9\-\+]{9,15}$/;
+			if(name.length<=8){
+				error[0].innerHTML = "Tên phải lớn hơn 8 kí tự";
+			}else{
+				error[0].innerHTML ="";
+			}
+			if(!re.test(email)){
+				error[1].innerHTML = "Email không hợp lệ";
+			}else{
+				error[1].innerHTML ="";
+			}
+			if(pass.length<=6){
+				error[2].innerHTML = "Mật khẩu phải nhiều hơn 6 kí tự";
+			}else{
+				error[2].innerHTML ="";
+			}
+			if(re_pass == pass){
+				error[3].innerHTML = "";
+			}else{
+				error[3].innerHTML ="Nhập lại không đúng";
+			}
+			if(document.getElementById("gioitinh1").checked == false && document.getElementById("gioitinh2").checked == false){
+				error[4].innerHTML = "Vui lòng chọn giới tính";
+			}else{
+				error[4].innerHTML ="";
+			}
+			if(!regexPhoneNumber.test(phone)){
+				error[5].innerHTML = "Số điện thoại không hợp lệ. Vui lòng nhập lại";
+			}else{
+				error[5].innerHTML ="";
+			}
+
+		})
+		function clearAll(){
+			document.getElementById('name').value=null;
+			document.getElementById('email').value=null;
+			document.getElementById('pass').value=null;
+			document.getElementById('re_pass').value=null;
+			document.getElementById('phone').value=null;
+			document.getElementById("gioitinh1").checked = false;
+			document.getElementById("gioitinh2").checked = false;
+			error[0].innerHTML ="";
+			error[1].innerHTML ="";
+			error[2].innerHTML ="";
+			error[3].innerHTML ="";
+			error[4].innerHTML ="";
+			error[5].innerHTML ="";
+		}
+	</script>
+</html>
