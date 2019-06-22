@@ -1,0 +1,895 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.all{
+	width: 70%;
+	margin: auto;
+}
+.menu{
+	width: 100%;
+	text-align: center;
+	background: #f6f6f6;
+}
+	.menu ul{
+		list-style-type: none;
+		line-height: 100px;
+	}
+	.menu ul li{
+		display: inline;
+		margin-left: 30px;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: black;
+	}
+	.menu ul li a:hover{
+		color: orange;
+	}
+.header{
+	width: 100%;
+}
+.content1{
+	width: 100%;
+	background-color: #f6f6f6;
+	padding-bottom: 30px;
+}
+	#ct1-one{
+		width: 85%;
+		background: orange;
+		margin: auto;
+
+	}
+		.ct1-one-img{
+			width: 27%;
+			float: left;
+			margin-left: 35px;
+			margin-bottom: 35px;
+			margin-top: 30px;
+		}
+	#ct1-two{
+		width: 85%;
+		margin: auto;
+	}
+	.content2{
+		width: 100%;
+		background-color: #f6f6f6;
+		padding-bottom: 860px;
+
+	}
+	#ct2-one{
+		width: 90%;
+		margin: auto;
+	}
+		#ct2-one-left{
+			width: 30%;
+			float: left;
+			position: relative;
+		}
+			.ct2-one-left-content{
+				width: 90%;
+				border-bottom: 1px dotted black;
+				line-height: 20px;
+				padding-top: 20px;
+				margin-bottom: 10px;
+				padding-bottom: 10px;
+				padding-left: 10px;
+			}
+			.ct2-one-left-img{
+				width: 90%;
+				margin: auto;
+				background: white;
+				padding-bottom: 180px;
+			}
+			#ct2-one-left-content1{
+				width: 70%;
+				position: absolute;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				top: 477px;
+				left: 37px;
+			}
+			.ct2-one-left-content2{
+				width: 90%;
+				border-bottom: 1px dotted black;
+				line-height: 20px;
+				padding-top: 20px;
+				margin-bottom: 10px;
+				padding-bottom: 10px;
+				padding-left: 10px;
+				text-align: center;
+			}
+		#ct2-one-right{
+			width: 60%;
+			float: left;
+			margin-left: 25px;
+			position: relative;
+		}
+			.ct2-one-right-anh{
+				width: 65%;
+				float: left;
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+			#ct2-content1{
+				width: 45%;
+				position: absolute;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				top: 81px;
+				left: 320px;
+			}
+			#ct2-content2{
+				width: 45%;
+				position: absolute;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				top: 300px;
+				left: 320px;
+			}
+			#ct2-content3{
+				width: 45%;
+				position: absolute;
+				background: white;
+				text-align: center;
+				line-height: 30px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				top: 518px;
+				left: 320px;
+			}
+.content3{
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	padding-bottom: 200px;
+	}
+	#ct3-one-p{ font-size: 40px;
+		color: white;
+	}
+	#ct3-one
+	{
+		width: 80%;
+		margin: auto;
+	}
+	.ct3-one-img{
+	 	width: 23%;
+	 	float: left;
+	 	margin-left: 10px;
+	 }
+.content4{
+	width: 100%;
+	background: #f6f6f6;
+	padding-bottom: 480px;
+
+}
+	#content4-one{
+		width: 85%;
+		margin: auto;
+		text-align: center;
+	}
+	.ct4-one-1{
+		width: 28%;
+		float: left;
+		background: white;
+		margin-top: 30px;
+		margin-left: 30px;
+		padding-bottom: 20px;
+	}
+		.ct4-one-1-nd{
+			width: 80%;
+			border-bottom: 2px solid orange;
+			margin: auto;
+			margin-top: 10px;
+			padding-bottom: 10px;
+			line-height: 30px;
+		}
+	#content4-two{
+		width: 90%;
+		margin: auto;
+	}
+		#ct4-two-nd-1{
+			width: 30%;
+			float: left;
+			line-height: 25px;
+			margin-top: 20px;
+		}
+		#ct4-two-nd-2{
+			width: 70%;
+			float: left;
+			margin-top: 30px;
+		}
+			.ct4-two-anh{
+				width: 30%;
+				float: left;
+				margin-left: 10px;
+			}
+	#content4-three{
+		width: 85%;
+		margin: auto;
+		border: 1px solid orange;
+		text-align: center;
+		margin-top: 40px;
+		padding-bottom: 80px;
+		line-height: 25px;
+		padding-top: 30px;
+	}
+	#content4-four{
+		width: 85%;
+		margin: auto;
+		text-align: center;
+		margin-top: 30px;
+	}
+		.ct4-four-img{
+			width: 20%;
+			background: white;
+			margin-top: 30px;
+			text-align: center;
+			line-height: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			margin-left: 35px;
+			float: left;
+		}
+
+.footer1{
+	width: 100%;
+	background: black;
+	padding-bottom: 415px;
+}
+	.ft1-content1{
+		width: 23%;
+		padding-top: 20px;
+		float: left;
+		margin-left: 25px;
+		color: white;
+		position: relative;
+	}
+		.ft-ct1-img{
+			width: 45%;
+			float: left;
+			margin-left: 10px;
+			margin-bottom: 20px;
+			line-height: 20px;
+		}
+	.ft1-content2{
+		width: 20%;
+		padding-top: 20px;
+		float: left;
+		margin-left: 10px;
+		color: white;
+	}
+	.ft1-content3{
+		width: 23%;
+		padding-top: 20px;
+		float: left;
+		margin-left: 25px;
+		color: white;
+		position: relative;
+	}
+.footer2{
+	width: 100%;
+	background: #111111;
+	text-align: center;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+	color: white;
+	padding-top: 50px;
+	line-height: 30px;
+}
+.footer2 i{
+	color: orange;
+	font-size: 20px;
+}
+.clr{
+	clear: both;
+}
+.button1{
+	background: black;
+	color: white;
+	border: none;
+	width: 40%;
+	height: 30px;
+}
+#button2{
+	color: orange;
+	border-color: orange;
+	background: white;
+	width: 40%;
+	height: 30px;
+	margin-top: 20px;
+
+}
+hr{
+	float: left; 
+	width: 30%; 
+	margin-top: 10px; 
+	margin-left: 10px; 
+	height: 3px; 
+	background-color: #c9a96e;
+	border: none;"
+}
+#button3{
+	color: white;
+	border: none;
+	background-color: #c9a96e;
+	width: 40%;
+	height: 40px;
+	position: absolute;
+	top: 200px;
+    left: 133px;
+	}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	.all{
+	width: 70%;
+	margin: auto;
+}
+.menu{
+	width: 100%;
+	text-align: center;
+	background: #f6f6f6;
+}
+	.menu ul{
+		list-style-type: none;
+		line-height: 100px;
+	}
+	.menu ul li{
+		display: inline;
+		margin-left: 2%;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: black;
+	}
+	.menu ul li a:hover{
+		color: orange;
+	}
+.header{
+	width: 100%;
+}
+.content1{
+	width: 100%;
+	background-color: #f6f6f6;
+	padding-bottom: 5%;
+}
+	#ct1-one{
+		width: 85%;
+		background: orange;
+		margin: auto;
+
+	}
+		.ct1-one-img{
+			width: 80%;
+			float: left;
+			margin-left: 10%;
+			margin-bottom: 3%;
+			margin-top: 3%;
+		}
+	#ct1-two{
+		width: 85%;
+		margin: auto;
+	}
+	.content2{
+		width: 100%;
+		background-color: #f6f6f6;
+		padding-bottom: 320%;
+
+	}
+	#ct2-one{
+		width: 90%;
+		margin: auto;
+	}
+		#ct2-one-left{
+			width: 90%;
+			float: left;
+			position: relative;
+			padding-left: 3%
+		}
+			.ct2-one-left-content{
+				width: 90%;
+    			border-bottom: 1px dotted black;
+    			line-height: 120%;
+   				padding-top: 5%;
+   				margin-bottom: 3%;
+    			padding-bottom: 5%;
+    			padding-left: 3%;
+			}
+			.ct2-one-left-img{
+				width: 90%;
+				margin: auto;
+				background: white;
+				padding-bottom: 0%;
+			}
+			#ct2-one-left-content1{
+				display: none;
+			}
+			.ct2-one-left-content2{
+				display: none;
+			}
+		#ct2-one-right{
+			width: 90%;
+			margin-top: 3%;
+			float: left;
+			margin-left: 7%;
+			position: relative;
+		}
+			.ct2-one-right-anh{
+				width: 100%;
+				float: left;
+				margin-top: 5%;
+				margin-bottom: 12%;
+			}
+			#ct2-content1{
+				display: none;
+			}
+			#ct2-content2{
+				display: none
+			}
+			#ct2-content3{
+				display: none;
+			}
+.content3{
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	padding-bottom: 20%;
+	}
+	#ct3-one-p{ font-size: 40px;
+		color: white;
+	}
+	#ct3-one
+	{
+		width: 80%;
+		margin: auto;
+	}
+	.ct3-one-img{
+	 	width: 20%;
+	 	float: left;
+	 	margin-left: 4%;
+	 }
+.content4{
+	width: 100%;
+	background: #f6f6f6;
+	padding-bottom: 220%;
+
+}
+	#content4-one{
+		width: 85%;
+		margin: auto;
+		text-align: center;
+	}
+	.ct4-one-1{
+		width: 100%;
+		float: left;
+		background: white;
+		margin-left: 0px;
+		margin-top: 7%;
+		padding-bottom: 5%;
+	}
+		.ct4-one-1-nd{
+			width: 80%;
+			border-bottom: 2px solid orange;
+			margin: auto;
+			margin-top: 3%;
+			padding-bottom: 0%;
+			line-height: 170%;
+		}
+	#content4-two{
+		width: 90%;
+		margin: auto;
+	}
+		#ct4-two-nd-1{
+			width: 100%;
+			line-height: 140%;
+			margin-top: 5%;
+		}
+		#ct4-two-nd-2{
+			width: 70%;
+			float: left;
+			margin: auto;
+		}
+			.ct4-two-anh{
+				width: 100%;
+				float: left;
+				margin-left: 20%;
+			}
+	#content4-three{
+		width: 85%;
+		margin: auto;
+		border: 1px solid orange;
+		text-align: center;
+		margin-top: 10%;
+   		padding-bottom: 10%;
+    	line-height: 120%;
+    	padding-top: 5%;
+	}
+	#content4-four{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		margin-top: 5%;
+	}
+		.ct4-four-img{
+			width: 100%;
+   	 		background: white;
+    		margin-top: 5%;
+    		text-align: center;
+    		line-height: 140%;
+    		padding-top: 7%;
+    		padding-bottom: 5%;
+    		margin-left: 0px;
+    		float: left;
+		}
+
+.footer1{
+	width: 100%;
+	background: black;
+	padding-bottom: 70%;
+}
+	.ft1-content1{
+		display: none;
+	}
+		.ft-ct1-img{
+			display: none;
+		}
+	.ft1-content2{
+		display: none;
+	}
+	.ft1-content3{
+		width: 90%;
+		padding-top: 3%;
+		float: left;
+		margin-left: 10%;
+		color: white;
+		position: relative;
+	}
+.footer2{
+	width: 100%;
+    background: #111111;
+    text-align: center;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    color: white;
+    padding-top: 8%;
+    line-height: 150%;
+}
+.footer2 i{
+	color: orange;
+	font-size: 20px;
+}
+.clr{
+	clear: both;
+}
+.button1{
+	background: black;
+	color: white;
+	border: none;
+	width: 40%;
+	height: 30px;
+}
+#button2{
+	color: orange;
+	border-color: orange;
+	background: white;
+	width: 20%;
+	height: 30px;
+	margin-top: 20px;
+
+}
+hr{
+	float: left; 
+	width: 30%; 
+	margin-top: 10px; 
+	margin-left: 10px; 
+	height: 3px; 
+	background-color: #c9a96e;
+	border: none;"
+}
+#button3{
+	color: white;
+	border: none;
+	background-color: #c9a96e;
+	width: 40%;
+	height: 40px;
+	position: absolute;
+	top: 200px;
+    left: 133px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.all{
+	width: 70%;
+	margin: auto;
+}
+.menu{
+	width: 100%;
+	text-align: center;
+	background: #f6f6f6;
+}
+	.menu ul{
+		list-style-type: none;
+		line-height: 100px;
+		display: none;
+	}
+	.menu ul li{
+		display: inline;
+		margin-left: 2%;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: black;
+	}
+	.menu ul li a:hover{
+		color: orange;
+	}
+.header{
+	width: 100%;
+}
+.content1{
+	width: 100%;
+	background-color: #f6f6f6;
+	padding-bottom: 5%;
+}
+	#ct1-one{
+		width: 85%;
+		background: orange;
+		margin: auto;
+
+	}
+		.ct1-one-img{
+			width: 80%;
+			float: left;
+			margin-left: 10%;
+			margin-bottom: 3%;
+			margin-top: 3%;
+		}
+	#ct1-two{
+		width: 85%;
+		margin: auto;
+	}
+	.content2{
+		width: 100%;
+		background-color: #f6f6f6;
+		padding-bottom: 320%;
+
+	}
+	#ct2-one{
+		width: 90%;
+		margin: auto;
+	}
+		#ct2-one-left{
+			width: 90%;
+			float: left;
+			position: relative;
+			padding-left: 3%
+		}
+			.ct2-one-left-content{
+				width: 90%;
+    			border-bottom: 1px dotted black;
+    			line-height: 120%;
+   				padding-top: 5%;
+   				margin-bottom: 3%;
+    			padding-bottom: 5%;
+    			padding-left: 3%;
+			}
+			.ct2-one-left-img{
+				width: 90%;
+				margin: auto;
+				background: white;
+				padding-bottom: 0%;
+			}
+			#ct2-one-left-content1{
+				display: none;
+			}
+			.ct2-one-left-content2{
+				display: none;
+			}
+		#ct2-one-right{
+			width: 90%;
+			margin-top: 3%;
+			float: left;
+			margin-left: 7%;
+			position: relative;
+		}
+			.ct2-one-right-anh{
+				width: 100%;
+				float: left;
+				margin-top: 5%;
+				margin-bottom: 12%;
+			}
+			#ct2-content1{
+				display: none;
+			}
+			#ct2-content2{
+				display: none
+			}
+			#ct2-content3{
+				display: none;
+			}
+.content3{
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	padding-bottom: 20%;
+	}
+	#ct3-one-p{ font-size: 40px;
+		color: white;
+	}
+	#ct3-one
+	{
+		width: 80%;
+		margin: auto;
+	}
+	.ct3-one-img{
+	 	width: 20%;
+	 	float: left;
+	 	margin-left: 4%;
+	 }
+.content4{
+	width: 100%;
+	background: #f6f6f6;
+	padding-bottom: 370%;
+
+}
+	#content4-one{
+		width: 85%;
+		margin: auto;
+		text-align: center;
+	}
+	.ct4-one-1{
+		width: 100%;
+		float: left;
+		background: white;
+		margin-left: 0px;
+		margin-top: 7%;
+		padding-bottom: 5%;
+	}
+		.ct4-one-1-nd{
+			width: 80%;
+			border-bottom: 2px solid orange;
+			margin: auto;
+			margin-top: 3%;
+			padding-bottom: 0%;
+			line-height: 170%;
+		}
+	#content4-two{
+		width: 90%;
+		margin: auto;
+	}
+		#ct4-two-nd-1{
+			width: 100%;
+			line-height: 140%;
+			margin-top: 5%;
+		}
+		#ct4-two-nd-2{
+			width: 70%;
+			float: left;
+			margin: auto;
+		}
+			.ct4-two-anh{
+				width: 100%;
+				float: left;
+				margin-left: 20%;
+			}
+	#content4-three{
+		width: 85%;
+		margin: auto;
+		border: 1px solid orange;
+		text-align: center;
+		margin-top: 10%;
+   		padding-bottom: 10%;
+    	line-height: 120%;
+    	padding-top: 5%;
+	}
+	#content4-four{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		margin-top: 5%;
+	}
+		.ct4-four-img{
+			width: 100%;
+   	 		background: white;
+    		margin-top: 5%;
+    		text-align: center;
+    		line-height: 140%;
+    		padding-top: 7%;
+    		padding-bottom: 5%;
+    		margin-left: 0px;
+    		float: left;
+		}
+
+.footer1{
+	width: 100%;
+	background: black;
+	padding-bottom: 580%;
+}
+	.ft1-content1{
+		width: 88%;
+		padding-top: 20px;
+		float: left;
+		margin-left: 25px;
+		color: white;
+		position: relative;
+	}
+		.ft-ct1-img{
+			width: 80%;
+			float: left;
+			margin-left: 10px;
+			margin-bottom: 20px;
+			line-height: 20px;
+		}
+	.ft1-content2{
+		display: none;
+	}
+	.ft1-content3{
+		width: 80%;
+		padding-top: 3%;
+		float: left;
+		margin-left: 10%;
+		color: white;
+		position: relative;
+	}
+.footer2{
+	width: 100%;
+    background: #111111;
+    text-align: center;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    color: white;
+    padding-top: 8%;
+    line-height: 150%;
+}
+.footer2 i{
+	color: orange;
+	font-size: 20px;
+}
+.clr{
+	clear: both;
+}
+.button1{
+	background: black;
+	color: white;
+	border: none;
+	width: 40%;
+	height: 30px;
+}
+#button2{
+	color: orange;
+	border-color: orange;
+	background: white;
+	width: 30%;
+	height: 30px;
+	margin-top: 20px;
+
+}
+hr{
+	float: left; 
+	width: 30%; 
+	margin-top: 10px; 
+	margin-left: 10px; 
+	height: 3px; 
+	background-color: #c9a96e;
+	border: none;"
+}
+#button3{
+	color: white;
+	border: none;
+	background-color: #c9a96e;
+	width: 40%;
+	height: 40px;
+	position: absolute;
+	top: 78%;
+    left: 45%;
+	}
+}
+}

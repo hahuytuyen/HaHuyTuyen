@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style>
+		.color-red{
+			color: red;}
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sequi.</p>
+	<div id="the_div">
+		
+	</div>
+	<input id="click" type="button" value="Click">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#click").click(function(){
+				$("#the_div").append("<p id='thep'>The p vua them</p>")
+			});
+			$("#the_div").on('click','#thep',function(){
+				$(this).css("color","red");
+			});
+		});
+	</script>
+</body>
+</html>

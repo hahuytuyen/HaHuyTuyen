@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1>The h1</h1>
+	<p>the p thu nhat</p>
+	<p>the p thu 2</p>
+	<input type="button" value="Click me" onclick="myFunction()">
+	<script>
+		function myFunction(){
+			var h1 = document.getElementsByTagName('h1')[0];
+			h1.parentNode.style.background = 'orange';
+			var p = document.getElementsByTagName('p')[0];
+			p.nextElementSibling.style.color = 'blue';
+			var p2 = document.getElementsByTagName('p')[1];
+			h1.previousElementSibling.style.color = 'red';
+		}
+	</script>
+</body>
+</html>
