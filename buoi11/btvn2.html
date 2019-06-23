@@ -37,7 +37,7 @@
           $('.a').val('');
         })
         $('body').on('click','.del', function(){
-          $(this).prepend().remove();
+          $(this).parent().remove();
         });
         $('body').on('click','tr' , function(){
           var check = $(this).children('.check').html()
@@ -46,16 +46,16 @@
             $(this).children('.check').html('<i class="fa fa-check" aria-hidden="true"></i>')
             $(this).children('.nd').css('textDecoration','line-through')
             $(this).children('.nd').css('color','#fff')
-            $(this).children('.b').css('background','grey')
-            $(this).children('.b').css('color','#fff')
+            $(this).children('.del').css('background','grey')
+            $(this).children('.del').css('color','#fff')
           }
           else {
             $(this).css('background',"#f9f9f9")
             $(this).children('.check').html('')
             $(this).children('.nd').css('textDecoration','none')
             $(this).children('.nd').css('color','black')
-            $(this).children('.b').css('background','grey')
-            $(this).children('.b').css('color','#f9f9f9')
+            $(this).children('.del').css('background','#f9f9f9')
+            $(this).children('.del').css('color','black')
           }
         })
 		});
