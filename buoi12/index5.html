@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<div style="width: 200px; height: 130px; "><img src="img/tải xuống.jpg"></div>
+	<button id="hide">Hide</button>
+	<button id="show">Show</button>
+	<button id="toggle">Toggle</button>
+	<button id="fadeIn">fadeIn</button>
+	<button id="fadeOut">fadeOut</button><br><br>
+	<button id="fadeToggle">fadeToggle</button>
+	<button id="fadeTo">fadeTo</button>
+	<button id="slideUp">SlideUp</button>
+	<button id="slideDown">SlideDown</button>
+	<button id="slideToggle">SlideToggle</button>
+
+	<script>
+		$(document).ready(function(){
+			$('#hide').click(function(){
+				$('div').hide();
+			})
+			$('#show').click(function(){
+				$('div').show();
+			})
+			$('#toggle').click(function(){
+				$('div').toggle();
+			})
+			$('#fadeIn').click(function(){
+				$('div').fadeIn();
+			})
+			$('#fadeOut').click(function(){
+				$('div').fadeOut();
+			})
+			$('#fadeToggle').click(function(){
+				$('div').fadeToggle();
+			})
+			$('#fadeTo').click(function(){
+				$('div').fadeTo('slow',0.15);
+			})
+			$('#slideUp').click(function(){
+				$('div').slideUp();
+			})
+			$('#slideDown').click(function(){
+				$('div').slideDown();
+			})
+			$('#slideToggle').click(function(){
+				$('div').slideToggle();
+			})
+		});
+	</script>
+</body>
+</html>
