@@ -30,7 +30,7 @@
 			border: 1px solid white;
 			color: white;
 			background: grey;
-			display: none;
+			display: block;
 			opacity: 0.9
 		}
 		p{
@@ -51,7 +51,7 @@
 <body>
 	<div class="all">
 		<div class="tab">
-			<button><i class="fa fa-plus" aria-hidden="true"></i></button>
+			<button><i class="fa fa-angle-down" aria-hidden="true"></i></button>
 			<span class="text">
 				This is an expanded panel
 			</span>
@@ -60,7 +60,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nisi, natus laudantium modi ab, itaque minima aperiam assumenda optio. Totam, voluptatum, pariatur. Repudiandae accusamus fuga magni quod, repellat delectus sapiente?</p>
 		</div>
 		<div class="tab">
-			<button><i class="fa fa-plus" aria-hidden="true"></i></button>
+			<button><i class="fa fa-angle-down" aria-hidden="true"></i></button>
 			<span class="text">
 				This is an expanded panel
 			</span>
@@ -69,7 +69,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nisi, natus laudantium modi ab, itaque minima aperiam assumenda optio. Totam, voluptatum, pariatur. Repudiandae accusamus fuga magni quod, repellat delectus sapiente?</p>
 		</div>
 		<div class="tab">
-			<button><i class="fa fa-plus" aria-hidden="true"></i></button>
+			<button><i class="fa fa-angle-down" aria-hidden="true"></i></button>
 			<span class="text">
 				This is an expanded panel
 			</span>
@@ -78,7 +78,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nisi, natus laudantium modi ab, itaque minima aperiam assumenda optio. Totam, voluptatum, pariatur. Repudiandae accusamus fuga magni quod, repellat delectus sapiente?</p>
 		</div>
 		<div class="tab">
-			<button><i class="fa fa-plus" aria-hidden="true"></i></button>
+			<button><<i class="fa fa-angle-down" aria-hidden="true"></i></button>
 			<span class="text">
 				This is an expanded panel
 			</span>
@@ -90,14 +90,14 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('button').click(function(){
-				if($(this).html() == '<i class="fa fa-plus" aria-hidden="true"></i>'){
-					$('button').html('<i class="fa fa-plus" aria-hidden="true"></i>');
-					$(this).html('<i class="fa fa-minus" aria-hidden="true"></i>');
+				if($(this).html() == '<i class="fa fa-angle-down" aria-hidden="true"></i>'){
+					$('button').html('<i class="fa fa-angle-down" aria-hidden="true"></i>');
+					$(this).html('<i class="fa fa-angle-up" aria-hidden="true"></i>');
 					$('.content').css("display","none");
 					$(this).parent().next().css("display","block");}
 				else{
 					$('.content').css("display","none");
-					$(this).html('<i class="fa fa-plus" aria-hidden="true"></i>')
+					$(this).html('<i class="fa fa-angle-down" aria-hidden="true"></i>')
 
 				}
 					

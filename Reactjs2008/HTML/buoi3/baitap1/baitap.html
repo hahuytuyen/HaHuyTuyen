@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài tập reactjs</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="start_form_home">
+        <div class="title_form">
+            <h1>Please register by filling in the form</h1>
+        </div>
+        <div class="start_form">
+            <form action="server.js">
+                <div class="row_input">
+                    <label>First name :</label>
+                    <input type="text" name="" placeholder="First name..." class="ip_text">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Last name :</label>
+                    <input type="text" name="" placeholder="Last name..." class="ip_text">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Home run :</label>
+                    <select>
+						<option>-- Selection --</option>
+						<option>Gold</option>
+						<option>Silver</option>
+						<option>Copper</option>
+					</select>
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input row_gender">
+                    <label>Gender:</label>
+                    <div class="sex">
+                        <div><input name="gioitinh" type="radio" class="check-box" value="Nam">Nam</div>
+                        <div><input name="gioitinh" type="radio" class="check-box" value="Nữ">Nữ</div>
+                    </div>
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Date of Birth :</label>
+                    <input type="date" name="" class="ip_text">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Email :</label>
+                    <input type="Email" name="" placeholder="Email..." class="ip_text" required>
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Confirm email :</label>
+                    <input type="Email" name="" placeholder="Confirm email..." class="ip_text" required>
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Post code :</label>
+                    <input type="text" name="" placeholder="Post code..." class="ip_text">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Phone :</label>
+                    <input type="text" name="" placeholder="Phone..." class="ip_text">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <div class="row_input">
+                    <label>Note :</label>
+                    <textarea placeholder="Conten..."></textarea>
+                    <span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                </div>
+                <p class="checkout-coupon top log a-an" style="text-align:center;
+				margin-top: 10px">
+                    <label class="inline">
+						<input type="checkbox" class="ace">
+						<span class="lbl"> I have read and agree to the site <a href="#" target="_blank"><font style="color:red">"specified"</font></a></span>
+					</label>
+                </p>
+                <div class="submit">
+                    <input type="submit" name="button" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

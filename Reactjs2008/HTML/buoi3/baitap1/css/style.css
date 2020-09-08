@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.start_form_home {
+    padding: 30px;
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+}
+
+.title_form {
+    text-align: center;
+}
+
+.title_form h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 300;
+    color: #eeb445;
+    margin-bottom: 30px
+}
+
+.row_input {
+    padding: 10px 0px;
+    clear: both;
+    overflow: hidden;
+}
+
+.row_input label {
+    width: 30%;
+    float: left;
+    line-height: 30px;
+    font-weight: bold
+}
+
+.row_input .ip_text {
+    width: 60%;
+    float: left;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    box-shadow: 0 3px 4px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08);
+}
+
+.row_input input:focus {
+    box-shadow: 1px 3px 4px 1px rgba(225, 156, 25, 0.4), 0 0 1px 0 rgba(225, 156, 25, 0.08);
+    border: none;
+}
+
+.row_input select:focus {
+    box-shadow: 1px 3px 4px 1px rgba(225, 156, 25, 0.4), 0 0 1px 0 rgba(225, 156, 25, 0.08);
+    border: none;
+}
+
+.row_input span {
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+    color: #c35e5e
+}
+
+.row_input select {
+    float: left;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    box-shadow: 0 3px 4px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08);
+}
+
+.row_gender .sex {
+    float: left;
+    line-height: 30px;
+    display: flex;
+}
+
+.row_gender .sex input {
+    margin-right: 2px;
+}
+
+.row_gender .sex div {
+    margin-right: 10px
+}
+
+.row_input textarea {
+    width: 60%;
+    float: left;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 100px;
+    line-height: 30px;
+    outline: 0;
+    font-size: 14px;
+    box-shadow: 0 3px 4px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08);
+}
+
+.row_input textarea:focus {
+    box-shadow: 1px 3px 4px 1px rgba(225, 156, 25, 0.4), 0 0 1px 0 rgba(225, 156, 25, 0.08);
+    border: none;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.submit input {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    color: #fff;
+    border: 0;
+    font-size: 12px;
+    padding: 9px 30px;
+    text-transform: uppercase;
+    transition: none;
+    background: #ff8d1c;
+    box-shadow: 0 3px 4px 0 rgba(10, 31, 68, 0.6), 0 0 1px 0 rgba(10, 31, 68, 0.08);
+    cursor: pointer;
+}
+
+.submit input:hover {
+    background: transparent;
+    border: 1px solid #ff8d1c;
+    color: #ff8d1c
+}
